@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "aifr": "urn:aifr:vocab:",
+    "schema": "https://schema.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "aifr:AIFlawReport",
+      "@type": "rdfs:Class",
+      "rdfs:subClassOf": {"@id": "schema:Report"},
+      "rdfs:label": "AI Flaw Report",
+      "rdfs:comment": "A report documenting a flaw or issue in an AI system"
+    },
+    {
+      "@id": "aifr:aiSystem",
+      "@type": "rdfs:Property",
+      "rdfs:domain": {"@id": "aifr:AIFlawReport"},
+      "rdfs:range": {"@id": "schema:SoftwareApplication"},
+      "rdfs:label": "AI System",
+      "rdfs:comment": "The AI system(s) that exhibit the reported flaw. Can be a single system or array of systems."
+    },
+    {
+      "@id": "aifr:severity",
+      "@type": "rdfs:Property", 
+      "rdfs:domain": {"@id": "aifr:AIFlawReport"},
+      "rdfs:range": {"@id": "schema:Text"},
+      "rdfs:label": "Severity",
+      "rdfs:comment": "The severity level of the flaw (Low, Medium, High, Critical)"
+    }
+  ]
+}

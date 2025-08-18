@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "name": "schema:name",
+    "version": "schema:softwareVersion",
+    "publisher": "schema:publisher"
+  },
+  "@graph": [
+    {
+      "@type": "schema:SoftwareApplication",
+      "@id": "https://www.anthropic.com/claude/sonnet",
+      "name": "Claude",
+      "version": "Sonnet 4.0",
+      "publisher": {
+        "@id": "https://www.anthropic.com/"
+      },
+      "_aifr_internal": {
+        "slug": "claude-sonnet-4",
+        "displayName": "Claude Sonnet 4.0"
+      }
+    },
+    {
+      "@type": "schema:SoftwareApplication",
+      "@id": "https://www.anthropic.com/claude/haiku",
+      "name": "Claude",
+      "version": "Haiku 3.0",
+      "publisher": {
+        "@id": "https://www.anthropic.com/"
+      },
+      "_aifr_internal": {
+        "slug": "claude-haiku-3",
+        "displayName": "Claude Haiku 3.0"
+      }
+    },
+    {
+      "@type": "schema:SoftwareApplication",
+      "@id": "https://platform.openai.com/docs/models/gpt-4",
+      "name": "GPT-4",
+      "version": "GPT-4",
+      "publisher": {
+        "@id": "https://openai.com/"
+      },
+      "_aifr_internal": {
+        "slug": "gpt-4",
+        "displayName": "GPT-4"
+      }
+    },
+    {
+      "@type": "schema:SoftwareApplication",
+      "@id": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "name": "DeepSeek-R1",
+      "version": "R1",
+      "publisher": {
+        "@id": "https://www.deepseek.com/"
+      },
+      "_aifr_internal": {
+        "slug": "deepseek-r1",
+        "displayName": "DeepSeek-R1"
+      }
+    }
+  ]
+}

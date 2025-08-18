@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "name": "schema:name",
+    "url": "schema:url",
+    "sameAs": "schema:sameAs"
+  },
+  "@graph": [
+    {
+      "@type": "schema:Organization",
+      "@id": "https://www.anthropic.com/",
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Anthropic",
+        "https://www.crunchbase.com/organization/anthropic"
+      ],
+      "_aifr_internal": {
+        "slug": "anthropic",
+        "displayName": "Anthropic"
+      }
+    },
+    {
+      "@type": "schema:Organization",
+      "@id": "https://openai.com/", 
+      "name": "OpenAI",
+      "url": "https://openai.com/",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/OpenAI",
+        "https://www.crunchbase.com/organization/openai"
+      ],
+      "_aifr_internal": {
+        "slug": "openai",
+        "displayName": "OpenAI"
+      }
+    },
+    {
+      "@type": "schema:Organization",
+      "@id": "https://www.google.com/",
+      "name": "Google", 
+      "url": "https://www.google.com/",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Google",
+        "https://www.crunchbase.com/organization/google"
+      ],
+      "_aifr_internal": {
+        "slug": "google",
+        "displayName": "Google"
+      }
+    },
+    {
+      "@type": "schema:Organization",
+      "@id": "https://www.deepseek.com/",
+      "name": "DeepSeek AI",
+      "url": "https://www.deepseek.com/",
+      "sameAs": [
+        "https://huggingface.co/deepseek-ai"
+      ],
+      "_aifr_internal": {
+        "slug": "deepseek",
+        "displayName": "DeepSeek AI"
+      }
+    }
+  ]
+}

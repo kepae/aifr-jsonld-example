@@ -1,0 +1,8 @@
+{
+    "ai_systems": ["claude-sonnet-4", "deepseek-r1"],
+    "ai_systems_unknown": [
+        { "description": "free text description of unknown system by user" }
+    ],
+    "flaw_description": "The AI sometimes generates incorrect information about recent events.",
+    "flaw_severity": "Medium"
+}
