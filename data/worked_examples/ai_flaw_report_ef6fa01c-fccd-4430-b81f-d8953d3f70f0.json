@@ -1,0 +1,52 @@
+{
+  "Submitter Relationship": "Affected stakeholder",
+  "Submitter_Relationship_Other": "",
+  "Incident Location(s)": "adsgasd",
+  "Harm Narrative": "asdgadsf",
+  "Attacker Resources": [
+    "Training data/feedback control \u2014 An attacker can modify training data/feedback and/or insert a subset of examples."
+  ],
+  "Attacker Objectives": [
+    "Availability breakdown \u2014 An attacker disrupts the ability of users to obtain access to AI systems or their functionality."
+  ],
+  "Objective Context": "asdfasdf",
+  "Detection": ["User observation"],
+  "Detection_Other": "",
+  "Disclosure Intent": "No",
+  "Disclosure Timeline": null,
+  "Disclosure Channels": [],
+  "Disclosure_Channels_Other": "",
+  "Embargo Request": "",
+  "Report Types": [
+    "Real-World Incidents",
+    "Malign Actor",
+    "Security Incident Report"
+  ],
+  "Reporter ID": "asdfasdf",
+  "Session ID": "asdfasdf",
+  "Flaw Timestamp Start": "2025-08-19",
+  "Systems": ["GPT-3.5-Turbo"],
+  "Incident Description": "**Detailed Description:**\n        adsfasdf\n        ",
+  "Incident Description - Detailed": "adsfasdf",
+  "Potential Policy Violation": "asdgasdg",
+  "Prevalence": "Rare",
+  "Severity": "Medium",
+  "Impacts": ["Environmental"],
+  "Impacts_Other": "",
+  "CSAM Related": null,
+  "Specific Harm Types": [
+    "Excessive landfill - Excessive disposal of electrical or electronic equipment leading to ecological/biodiversity damage, and disrupting the livelihoods and eroding the rights of local communities"
+  ],
+  "Impacted Stakeholder(s)": ["Users"],
+  "Risk Source(s)": {
+    "Responsible Factors": ["Tool outputs/external inputs"],
+    "Responsible Factors Subcategories": {
+      "Tool outputs/external inputs": ["Resource overload/accessibility issues"]
+    },
+    "Responsible Factors Context": "fasdfasdf"
+  },
+  "Context Info": "adfasdf",
+  "Proof-of-Concept Exploit": "asdfasdf",
+  "Report ID": "ef6fa01c-fccd-4430-b81f-d8953d3f70f0",
+  "Submission Timestamp": "2025-08-19T16:16:13.583287"
+}

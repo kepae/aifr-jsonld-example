@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "aifr": "https://ai-flaw-report-form.streamlit.app/namespace/",
+    "aifr:AIFlawReport": {
+      "@id": "aifr:AIFlawReport",
+      "@type": "schema:Thing"
+    },
+    "aifr:aiSystem": {
+      "@id": "aifr:aiSystem",
+      "@type": "schema:SoftwareApplication",
+      "@container": "@set"
+    }
+  },
+  "@type": "aifr:AIFlawReport",
+  "@id": "https://ai-flaw-report-form.streamlit.app/reports/ef6fa01c-fccd-4430-b81f-d8953d3f70f0",
+  "schema:name": "AI Flaw Report: GPT-3.5-Turbo",
+  "schema:description": "adsfasdf",
+  "aifr:aiSystem": [
+    {
+      "@type": "schema:SoftwareApplication",
+      "@id": "https://platform.openai.com/docs/models/gpt-3.5-turbo",
+      "name": "GPT-3.5-Turbo",
+      "publisher": {
+        "@type": "schema:Organization",
+        "@id": "https://openai.com/",
+        "name": "OpenAI",
+        "url": "https://openai.com/",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/OpenAI",
+          "https://www.crunchbase.com/organization/openai"
+        ]
+      }
+    }
+  ],
+  "other arbitrary data": {
+    "anything": "This is a JSON object - if you need to add other fields or business logic, readers will have no problem!"
+  }
+}
